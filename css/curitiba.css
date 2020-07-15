@@ -1,3 +1,17 @@
+body {
+	background-color: #bc0c15;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+h5 {
+	text-align: center;
+	color: #f0970c;
+}
+
 .navbar-brand {
 	width: 50px;
 	height: 60px;
