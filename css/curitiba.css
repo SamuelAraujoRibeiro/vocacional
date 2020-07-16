@@ -1,5 +1,11 @@
+@font-face {
+	font-family: CoolveticaRg-Regular;
+	src: url("fonts/coolvetica-rg.ttf");
+}
+
 body {
 	background-color: #bc0c15;
+	font-family: CoolveticaRg-Regular
 }
 
 h2 {
@@ -19,4 +25,60 @@ h5 {
 .nav-item {
 	font-size: 15pt
 	padding
+}
+
+.list-group {
+	margin-left: 100px;
+}
+
+.row {
+	float: left;
+}
+
+.badge {
+	margin-left: 10px;
+	font-size: 10pt;
+	font-family: Arial
+}
+
+#fotos{
+	max-height: 600px;
+	max-width: 600px;
+	margin: auto;
+	margin-top: 380px;
+}
+
+#foto1 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto2 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto3 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto4 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto5 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto6 {
+	max-width: 600px;
+	max-height: 337px;
+}
+
+#foto7 {
+	max-width: 600px;
+	max-height: 337px;
 }

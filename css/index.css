@@ -1,0 +1,54 @@
+@font-face {
+	font-family: CoolveticaRg-Regular;
+	src: url("fonts/coolvetica-rg.ttf");
+}
+
+body {
+	background-color: #bc0c15;
+	font-family: CoolveticaRg-Regular
+}
+
+.navbar-brand {
+	width: 50px;
+	height: 60px;
+}
+.nav-item {
+	font-size: 15pt
+	padding
+}
+
+.phrase {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 25pt;
+	color: white;
+}
+
+.phrase1 {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 25pt;
+	color: #f0970c;
+}
+
+#card1 {
+	margin-left: 40px;
+}
+
+.card {
+	margin: 20px
+}
+
+.card-text {
+	text-align: center;
+	font-size: 15pt;
+}
+
+.card-img-top {
+	width: 286px;
+	height: 280px
+}
+
+.row {
+	float: left;
+}

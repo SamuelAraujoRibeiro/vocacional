@@ -1,5 +1,11 @@
+@font-face {
+	font-family: CoolveticaRg-Regular;
+	src: url("fonts/coolvetica-rg.ttf");
+}
+
 body {
 	background-color: #bc0c15;
+	font-family: CoolveticaRg-Regular
 }
 
 h2 {
@@ -32,6 +38,7 @@ h5 {
 .badge {
 	margin-left: 10px;
 	font-size: 10pt;
+	font-family: Arial
 }
 
 #fotos{
