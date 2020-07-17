@@ -8,12 +8,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
   <body>
-    <nav class="navbar navbar-expand-md navbar-light stick-top" style="background-color: #f0970c">
+    <nav class="navbar navbar-expand-lg navbar-light stick-top" style="background-color: #f0970c">
       <a href=""><img class="navbar-brand" src="./images/logo.png"></img></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-icon2">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav-icon2">
+      <div id="nav-icon2" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="missoes/curitiba.html">Curitiba</a>
@@ -29,36 +34,37 @@
           </li>
         </ul>
       </div>
-    </nav>
-    <h1 class="phrase">Tudo ofertar, tudo perder, na alegria de te pertencer.</h1>
-    <h1 class="phrase1">Trabalho Vocacional 2020, Região Sul.</h1><br>
+    </nav><br>
+    <h2>Tudo ofertar, tudo perder, na alegria de te pertencer.</h2>
+    <h5>Trabalho Vocacional 2020, Região Sul.</h5><br>
     <div class="row">
-        <div class="card column-md-3" id="card1" style="width: 18rem;">
+        <div class="card column" id="card1">
           <img src="images/members/eliane.jpeg" class="card-img-top">
           <div class="card-body">
             <p class="card-text">Eliane - Araraquara</p>
           </div>
         </div>
-        <div class="card column-md-3" id="card2" style="width: 18rem;">
+        <div class="card column" id="card2">
           <img src="images/members/lara.jpeg" class="card-img-top">
           <div class="card-body">
             <p class="card-text">Lara - Ribeirão Preto</p>
           </div>
         </div>
-        <div class="card column-md-3" id="card3" style="width: 18rem;">
-          <img src="images/members/marcos.jpg" class="card-img-top">
-          <div class="card-body">
-            <p class="card-text">Marcos - Poços de Calda</p>
-          </div>
-        </div>
-        <div class="card column-md-3" id="card4" style="width: 18rem;">
+        <div class="card column" id="card3">
           <img src="images/members/samuel.jpg" class="card-img-top">
           <div class="card-body">
-            <p class="card-text">Samuel - Franca</p>
+            <p class="card-text">Samuel - Franca</p><h1 class="espaço">a</h1>
           </div>
         </div>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#nav-icon2').click(function(){
+        $(this).toggleClass('open');
+      });
+    });
+</script>
 </html>

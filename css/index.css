@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
 	font-family: CoolveticaRg-Regular;
 	src: url("fonts/coolvetica-rg.ttf");
@@ -8,47 +13,256 @@ body {
 	font-family: CoolveticaRg-Regular
 }
 
-.navbar-brand {
-	width: 50px;
-	height: 60px;
-}
-.nav-item {
-	font-size: 15pt
-	padding
-}
-
-.phrase {
+h2 {
 	text-align: center;
-	margin-top: 25px;
-	font-size: 25pt;
 	color: white;
+	font-size: 40pt;
 }
 
-.phrase1 {
+h5 {
 	text-align: center;
-	margin-top: 25px;
-	font-size: 25pt;
+	font-size: 30pt;
 	color: #f0970c;
 }
 
-#card1 {
-	margin-left: 40px;
+.row {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-brand {
+	width: 100px;
+	height: 110px;
+	margin-left: 15px
+}
+
+.nav-item {
+	font-size: 30pt;
+	padding: 10px;
+}
+
+.navbar-toggler {
+	float: right;
+    left: 38%;
+}
+
+.navbar-nav {
+    text-align: right;
 }
 
 .card {
-	margin: 20px
+	width: 600px;
+	height: 700px;
+	margin: 20px;
+}
+
+.card-img-top {
+	width: 600px;
+	height: 600px
+}
+
+#card1 {
+	left: 180px;
+}
+
+#card2 {
+	left: 180px;
+	top: 25px;
+}
+
+#card3 {
+	left: 180px;
+	top: 50px;
 }
 
 .card-text {
 	text-align: center;
-	font-size: 15pt;
+	font-size: 30pt;
 }
 
-.card-img-top {
-	width: 286px;
-	height: 280px
+.espaço {
+	font-size: 40pt;
+	visibility: hidden;
 }
 
-.row {
-	float: left;
+#nav-icon2 {
+	border: 0;
+	width: 60px;
+	height: 45px;
+	position: relative;
+	margin: 50px auto;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+#nav-icon2 span {
+	display: block;
+	position: absolute;
+	height: 9px;
+	width: 50%;
+	background: #bc0c15;
+	opacity: 1;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+#nav-icon2 span:nth-child(even) {
+	left: 50%;
+	border-radius: 0 9px 9px 0;
+}
+
+#nav-icon2 span:nth-child(odd) {
+	left:0px;
+	border-radius: 9px 0 0 9px;
+}
+
+#nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
+	top: 0px;
+}
+
+#nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
+	top: 18px;
+}
+
+#nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
+	top: 36px;
+}
+
+#nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+#nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+#nav-icon2.open span:nth-child(1) {
+	left: 5px;
+	top: 7px;
+}
+
+#nav-icon2.open span:nth-child(2) {
+	left: calc(50% - 5px);
+	top: 7px;
+}
+
+#nav-icon2.open span:nth-child(3) {
+	left: -50%;
+	opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(4) {
+	left: 100%;
+	opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(5) {
+	left: 5px;
+	top: 29px;
+}
+
+#nav-icon2.open span:nth-child(6) {
+	left: calc(50% - 5px);
+	top: 29px;
+}
+
+@media (min-width: 768px) {
+	h2 {
+		text-align: center;
+		color: white;
+		font-size: 40pt;
+	}
+
+	h5 {
+		text-align: center;
+		font-size: 30pt;
+		color: #f0970c;
+	}
+
+	.row {
+		width: 100%;
+		height: 100%;
+	}
+
+	.navbar-brand {
+		width: 100px;
+		height: 110px;
+		margin-left: 15px
+	}
+
+	.nav-item {
+		font-size: 30pt;
+		padding: 10px;
+	}
+
+	.navbar-toggler {
+		float: right;
+	    left: 38%;
+	}
+
+	.navbar-nav {
+	    text-align: right;
+	}
+
+	.card {
+		width: 600px;
+		height: 700px;
+		margin: 20px;
+	}
+
+	.card-img-top {
+		width: 600px;
+		height: 600px
+	}
+
+	#card1 {
+		left: 180px;
+	}
+
+	#card2 {
+		left: 180px;
+		top: 25px;
+	}
+
+	#card3 {
+		left: 180px;
+		top: 50px;
+	}
+
+	.card-text {
+		text-align: center;
+		font-size: 30pt;
+	}
+
+	.espaço {
+		font-size: 40pt;
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+
 }
